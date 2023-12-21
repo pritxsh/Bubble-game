@@ -1,0 +1,104 @@
+/* This is a user generated snippet for css. Steps--> setting icon-> user snippet-> search css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+html,body{
+height: 100%;
+width: 100%;
+}
+
+#main{
+    /* background-color: rgba(158, 215, 158, 0.735); */
+    background: linear-gradient(45deg, #ebf4f5 0%, #c9def4 25%, #b5c6e0 50%); 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#container{
+    background-color: whitesmoke;
+    overflow: hidden;
+    width: 70%;
+    height: 80%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px 5px rgba(0, 0, 0, 0.384);
+}
+
+#container-top{
+    width: 100%;
+    height: 70px;
+    padding: 0 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6041a9fb;
+}
+
+.elem{
+ display: flex;
+ align-items: center;
+ gap: 10px;
+ color: white;
+ justify-content: space-between;
+}
+
+#container-top h4{
+  font-weight: 500;
+}
+
+.box{
+    padding: 10px;
+    font-size:17px;
+    color: rgba(23, 52, 23, 0.76);
+    padding: 5px 20px;
+    font-weight: 500;
+    background-color: white;
+    border-radius: 2px;
+}
+#container-btm{
+    /* background-color: yellow; */
+    height: 85%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.bubble{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    font-size: 14px;
+    margin: 5px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: #61469fe2;
+   border-radius: 50px;
+}
+
+.bubble:hover{
+    cursor: pointer;
+    background-color: #4f2f9bfb;
+}
+
+#gameoverh1{
+    color: #291654fb;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#startgameh3{
+    position: absolute;
+    color: #291654fb;
+}

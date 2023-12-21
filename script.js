@@ -1,8 +1,9 @@
 
 var timer = 60;
-var hitnum =0;
+var hitnum=0;
 var score =0;
 var setTimeInterval;
+var count=0;
 
 function makeBubbles(){
     let clutter = "";
@@ -46,11 +47,14 @@ document.querySelector("#container-btm").addEventListener("click",function(detai
     runTimer();
     var clickednum = Number(details.target.innerHTML);
       if(clickednum==hitnum){
-        increaseScore();
+        if(count==1){
+            increaseScore();
+        }
         makeBubbles();
         runHit();
+        count=1;
       }
-     
+      
 })
 
  
